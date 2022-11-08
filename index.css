@@ -156,7 +156,8 @@ footer .social-media{
        border: 2px solid var(--hover-color);
        background: inherit;
        color: #fff;
-       font-size: 1.3rem;
+       font-size: 1rem;
+       outline: none;
       }
 
       .people-entered-articl-btn button:hover {
@@ -165,5 +166,11 @@ footer .social-media{
        color: var(--hover-color);
        cursor: pointer;
        transition: ease-in-out .3s;
+       outline: none;
       }
+
+      button:active {
+        outline: none;
+        border: none;
+    }
     }
